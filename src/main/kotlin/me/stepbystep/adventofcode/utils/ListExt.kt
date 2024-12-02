@@ -9,3 +9,6 @@ fun <T> List<List<T>>.transpose(): List<List<T>> {
         }
     }
 }
+
+fun List<String>.toIntLists(): List<List<Int>> =
+    map { line -> line.split("\\s+".toRegex()).map { it.toInt() } }

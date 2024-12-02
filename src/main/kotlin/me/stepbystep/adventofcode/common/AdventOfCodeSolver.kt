@@ -1,10 +1,12 @@
 package me.stepbystep.adventofcode.common
 
 import me.stepbystep.adventofcode.solvers.Day1Solver
+import me.stepbystep.adventofcode.solvers.Day2Solver
 
 class AdventOfCodeSolver {
     private val allSolvers: List<DaySolver> = listOf(
         Day1Solver(),
+        Day2Solver(),
     )
 
     fun solveTask(day: Int, complexity: TaskComplexity): Int {
