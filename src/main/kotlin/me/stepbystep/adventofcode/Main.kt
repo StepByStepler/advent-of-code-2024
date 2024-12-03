@@ -5,6 +5,6 @@ import me.stepbystep.adventofcode.common.TaskComplexity
 
 fun main() {
     val solver = AdventOfCodeSolver()
-    val result = solver.solveTask(2, TaskComplexity.Hard)
+    val result = solver.solveTask(3, TaskComplexity.Hard)
     println(result)
 }
