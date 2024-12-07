@@ -4,6 +4,7 @@ import me.stepbystep.adventofcode.solvers.Day1Solver
 import me.stepbystep.adventofcode.solvers.Day2Solver
 import me.stepbystep.adventofcode.solvers.Day3Solver
 import me.stepbystep.adventofcode.solvers.Day4Solver
+import me.stepbystep.adventofcode.solvers.Day5Solver
 
 class AdventOfCodeSolver {
     private val allSolvers: List<DaySolver> = listOf(
@@ -11,6 +12,7 @@ class AdventOfCodeSolver {
         Day2Solver(),
         Day3Solver(),
         Day4Solver(),
+        Day5Solver(),
     )
 
     fun solveTask(day: Int, complexity: TaskComplexity): Int {
