@@ -1,7 +1,6 @@
 package me.stepbystep.adventofcode.solvers
 
 import me.stepbystep.adventofcode.common.DaySolver
-import kotlin.math.log
 import kotlin.math.pow
 
 class Day7Solver : DaySolver {
